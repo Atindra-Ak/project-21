@@ -34,10 +34,7 @@ function draw() {
     edges=createEdgeSprites();
      
     box.bounceOff(edges);
-    box.bounceOff(g1);
-    box.bounceOff(g2);
-    box.bounceOff(g3);
-    box.bounceOff(g4);
+    
 
     colorChange();
 
